@@ -1,0 +1,37 @@
+
+.Top {
+    position: relative;
+    height: 100vh;
+    /* max-width: 640px; */
+}
+
+.Top-image {
+    height: inherit;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.Top-text {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    margin-top: 60vh;
+}
+
+.Top-title {
+    color: #FFDFDF;
+    font-size: 34px;
+}
+
+.Top-sub-title {
+    color: #FFDFDF;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.Top-desc {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-top: 20px;
+}
