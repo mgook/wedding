@@ -13,7 +13,7 @@ const mountLivereCommentPlugin = (d, s) => {
     e.parentNode.insertBefore(j, e);
 }
 
-export default class LivreComment extends React.Component {
+export default class LivereComment extends React.Component {
     componentDidMount() {
         mountLivereCommentPlugin(document, 'script');
     }
