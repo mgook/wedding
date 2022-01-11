@@ -13,7 +13,7 @@ function Top() {
                     노블발렌티 대치
                 </div>
             </div>
-            <img className="Top-image" src={main} />
+            <div className="Top-image"></div>
         </div>
     );
 }
