@@ -1,0 +1,17 @@
+.PhotoGallery {
+    background-color: #FFDFDF;
+    text-align: center;
+    padding: 25px 20px 45px 20px;
+}
+
+.PhotoGallery-title {
+    color: #FFFFFF;
+    font-size: 34px;
+    padding-bottom: 15px;
+}
+
+.PhotoGallery-sub-title {
+    color: #323232;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
