@@ -1,0 +1,31 @@
+.Intro {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.Intro-title {
+    color: #FFDFDF;
+    font-size: 34px;
+}
+
+.Intro-sub-title {
+    color: #323232;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.Intro-photo {
+    border-radius: 50%;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.Intro-desc {
+    color: #323232;
+    font-size: 13px;
+    margin-top: 15px;
+}
