@@ -15,41 +15,70 @@
         url(../assets/images/main.jpg) no-repeat center center/cover;
 }
 
-.Top-text {
+/* invitation */
+.Top-invitation-box {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 22px;
+}
+.Top-invitation {
+    font-family: Zapfino;
+    font-size: 8px;
+    line-height: 2.75;
+    letter-spacing: 3.05px;
+    color: #f9ecec;
+}
+
+.Top-line {
+    width: 4px;
+    height: 1px;
+    color: white;
+    border: 1px white;
+}
+
+
+  /* 텍스트 영역 */
+.Top-text-box {
     width: 100%;
     position: absolute;
     text-align: center;
-    margin-top: 65vh;
+    margin-top: 56vh;
 }
 
 .Top-title {
+    font-family: NanumMyeongjo;
     color: #f9ecec;
-    font-size: 34px;
+    font-size: 40px;
 }
 
 .Top-sub-title {
     color: #f9ecec;
-    font-size: 20px;
-    margin-top: 10px;
+    font-family: NanumMyeongjo;
+    font-size: 27px;
+    margin-top: 2px;
+    margin-bottom: 12px;
 }
 
 .Top-desc {
     color: #FFFFFF;
-    font-size: 15px;
-    margin-top: 20px;
+    font-family: NotoSansKR;
+    font-size: 14px;
 }
 
 .Top-save-button {
-    margin-top: 15px;
-    padding: 15px 52px;
-    font-size:  15px;
+    width: 176px;
+    height: 42px;
+    margin-top: 34px;
+    padding: 11px 41px;
+    font-family: NotoSansKR;
+    font-size: 14px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
     color: white;
     background-color: transparent;
-    border: 2px solid white;
+    border: solid 1px white;
 }
 
 .Top-save-button:hover {

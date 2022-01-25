@@ -20,8 +20,7 @@ export default function PhotoGallery() {
 
     return (
         <div className="PhotoGallery">
-            <div className="PhotoGallery-title">OUR MOMENT</div>
-            <div className="PhotoGallery-sub-title">GALLERY</div>
+            <div className="PhotoGallery-title">PHOTOS</div>
             <Gallery photos={photos} direction='column' columns='3' onClick={openLightbox} />
             <ModalGateway>
                 {viewerIsOpen ? (

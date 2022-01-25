@@ -1,0 +1,47 @@
+.IntroPhoto {
+    position: relative;
+}
+
+.IntroPhoto-type{
+  font-family: NanumMyeongjo;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #f1c4c4;
+}
+
+.IntroPhoto-name {
+    margin: 4px 25px 23px 0;
+    font-family: NanumMyeongjo;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #f1c4c4;
+}
+
+.IntroPhoto-photo {
+    width: 118px;
+    height: 153px;  
+}
+
+.IntroPhoto-container {
+    /* display: flex; */
+    text-align: center;
+}
+
+.IntroPhoto-background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 130px;
+    height: 178px;
+    background-color: #f9ecec;
+    z-index: -1;
+}

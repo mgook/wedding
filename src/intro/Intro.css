@@ -1,31 +1,50 @@
 .Intro {
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
-
-.Intro-title {
-    color: #FFDFDF;
-    font-size: 34px;
-}
-
-.Intro-sub-title {
-    color: #323232;
-    font-size: 18px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+.Intro-photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 36px;
+    margin-bottom: 32px;
 }
 
 .Intro-photo {
-    border-radius: 50%;
-    margin: 10px;
-    width: 100px;
-    height: 100px;
+    width: 39%;
+    height: auto;
+    margin: 0 5px;
 }
 
-.Intro-desc {
+.Intro-desc-title {
+    object-fit: contain;
+    font-family: NanumMyeongjo;
+    font-size: 26px;
+    font-weight: 800;
+    color: #d18f8f;
+}
+
+.Intro-desc-content {
+    font-family: NotoSansKR;
+    font-size: 14px;
+    font-weight: 300;
     color: #323232;
-    font-size: 13px;
-    margin-top: 15px;
+    margin-top: 12px;
+    margin-bottom: 40px;
+}
+
+.Intro-desc-family {
+    font-family: NotoSansKR;
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #323232;
+}
+
+.Intro-baemin-avatar {
+    width: 100%;
+    margin-top: 11px
 }
