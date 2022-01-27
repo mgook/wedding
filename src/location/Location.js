@@ -18,7 +18,7 @@ export default function Location() {
     }, []);
 
     return (
-        <div className="Location">
+        <div className="Location" id="Location">
             <div className='Location-title Theme-title'>노블발렌티 대치</div>
             <div className='Location-map-container'>
                 <div className='Location-map' id="map"></div>

@@ -1,4 +1,4 @@
-.Nav {
+.Navbar {
     display: flex;
     justify-content: space-evenly;
     position:-webkit-sticky;
@@ -6,12 +6,37 @@
     top:0;
 }
 
-.Nav-item {
+.Navbar-items {
     font-family: NotoSansKR;
     font-size: 16px;
     color: #323232;
 }
 
-.Nav-item:hover {
-    font-weight: bold;
+.Navbar-items li {
+    list-style: none;
+    display: inline-block;
+}
+
+.Navbar-items li + li {
+    margin-left: 20px;
+}
+
+.Navbar-items li a {
+    text-decoration: none;
+    position: relative;
+}
+
+.Navbar-items li a::after {
+    width: 0;
+    content: "";
+    height: 4px;
+    background-color: #ffc107;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    transition: width 0.3s ease;
+}
+
+.Navbar-items li a.active::after {
+    width: 100%;
 }

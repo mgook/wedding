@@ -19,7 +19,7 @@ export default function PhotoGallery() {
     };
 
     return (
-        <div className="PhotoGallery">
+        <div className="PhotoGallery" id="PhotoGallery">
             <div className="PhotoGallery-title">PHOTOS</div>
             <Gallery photos={photos} direction='column' columns='3' onClick={openLightbox} />
             <ModalGateway>

@@ -1,22 +1,23 @@
 import ActiveMenuLink from "active-menu-link";
 import React from "react";
+import { useEffect } from "react/cjs/react.development";
 import "./Navbar.css";
 
-export default class Navbar extends React.Component {
-    componentDidMount() {
-        new ActiveMenuLink(".navbar");
-    }
+export default function Navbar() {
+    useEffect(() => {
+        const newLocal = document.getElementsByClassName("navbar-items");
+        new ActiveMenuLink(".Navbar");
+    });
 
-    render() {
-        return (
-            <nav className="navbar" >
-                <ul class="navbar-items">
-                    <li><a href="#Intro">초대인사</a></li>
-                    <li><a href="#Gallery">갤러리</a></li>
-                    <li><a href="#WayToCome">오시는 길</a></li>
-                    <li><a href="#Cong">축하인사</a></li>
-                </ul>
-            </nav>
-        );
-    }
+    return (
+        <nav className="Navbar" >
+            <ul className="Navbar-items">
+                <li><a href="#Intro">초대인사</a></li>
+                <li><a href="#PhotoGallery">갤러리</a></li>
+                <li><a href="#Location">오시는 길</a></li>
+                <li><a href="#lv-container">축하인사</a></li>
+            </ul>
+        </nav>
+    );
+
 }
