@@ -6,7 +6,7 @@ import IntroPhoto from "./IntroPhoto";
 
 export default function Intro() {
     return (
-        <div className="Intro">
+        <div className="Intro" id="Intro">
             <div className="Intro-photo-container">
                 <img className="Intro-photo" src={gook}></img>
                 <img className="Intro-photo" src={joo}></img>

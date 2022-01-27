@@ -1,12 +1,22 @@
+import ActiveMenuLink from "active-menu-link";
+import React from "react";
 import "./Navbar.css";
 
-export default function Navbar() {
-    return (
-        <div className="Nav">
-            <div className="Nav-item">초대인사</div>
-            <div className="Nav-item">갤러리</div>
-            <div className="Nav-item">오시는 길</div>
-            <div className="Nav-item">축하인사</div>
-        </div>
-    )
+export default class Navbar extends React.Component {
+    componentDidMount() {
+        new ActiveMenuLink(".navbar");
+    }
+
+    render() {
+        return (
+            <nav className="navbar" >
+                <ul class="navbar-items">
+                    <li><a href="#Intro">초대인사</a></li>
+                    <li><a href="#Gallery">갤러리</a></li>
+                    <li><a href="#WayToCome">오시는 길</a></li>
+                    <li><a href="#Cong">축하인사</a></li>
+                </ul>
+            </nav>
+        );
+    }
 }
