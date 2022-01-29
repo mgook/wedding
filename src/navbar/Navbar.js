@@ -5,7 +5,6 @@ import "./Navbar.css";
 
 export default function Navbar() {
     useEffect(() => {
-        const newLocal = document.getElementsByClassName("navbar-items");
         new ActiveMenuLink(".Navbar");
     });
 
