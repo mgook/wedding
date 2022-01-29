@@ -1,6 +1,6 @@
 import ActiveMenuLink from "active-menu-link";
 import React from "react";
-import { useEffect } from "react/cjs/react.development";
+import { useEffect } from "react";
 import "./Navbar.css";
 
 export default function Navbar() {
