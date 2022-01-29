@@ -1,4 +1,5 @@
 import React from "react";
+import "./LivereComment.css"
 
 
 const mountLivereCommentPlugin = (d, s) => {
@@ -19,7 +20,10 @@ export default class LivereComment extends React.Component {
     }
     render() {
         return (
-            <div id="lv-container" data-id="city" data-uid="MTAyMC81NTE2MS8zMTYyOA==" />
+            <div>
+                <div className='Comment-image'></div>
+                <div id="lv-container" data-id="city" data-uid="MTAyMC81NTE2MS8zMTYyOA==" />
+            </div>
         );
     }
 }

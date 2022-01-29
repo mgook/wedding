@@ -28,6 +28,26 @@ export default function Location() {
                 <div className='Location-address-button'>길찾기</div>
                 <div className='Location-address-button'>지도보기</div>
             </div>
+            <div className='Location-info-container'>
+                <div className='Location-info-title'>전화</div>
+                <div className='Location-info-content'>02-539-0400</div>
+                <div className='Location-info-title'>주차</div>
+                <div className='Location-info-content'>
+                    삼성역 3번출구 539m 직전<br />
+                    -혜암빌딩 지하 주차장(150대)<br />
+                    -폭스바겐 건물 주차(150대)
+                </div>
+                <div className='Location-info-title'>지하철</div>
+                <div className='Location-info-content'>2호선 삼성역 (10분 간격 셔틀 버스 운행)</div>
+                <div className='Location-info-title'>버스</div>
+                <div className='Location-info-content'>
+                    정류장 : 휘문고, 대치2동주문센터 하차<br />
+                    -일반 : 11-3, 917<br />
+                    -지선 : 4318, 4319, 4419<br />
+                    -간선 : 401<br />
+                    -직행 : 500-2, 9407, 9507, 9607
+                </div>
+            </div>
         </div>
     );
 }

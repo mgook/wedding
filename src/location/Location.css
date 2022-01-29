@@ -22,6 +22,7 @@
     height: 100%;
 }
 
+/* 주소 */
 .Location-address-container {
     display: flex;
     margin-top: 8px;
@@ -44,4 +45,24 @@
     text-align: center;
     color: #fff;
     margin-left: 3px;
+}
+
+
+/* 상세내용 */
+.Location-info-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    row-gap: 0.8rem;
+}
+
+.Location-info-title {
+    font-family: NotoSansKR;
+    font-size: 1.4rem;
+    color: #323232;
+}
+
+.Location-info-content {
+    font-family: NotoSansKR;
+    font-size: 1.4rem;
+    color: #7b7b7b;
 }
