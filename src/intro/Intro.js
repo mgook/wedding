@@ -1,17 +1,12 @@
-import gook from "../assets/images/intro/gook.png";
-import joo from "../assets/images/intro/joo.png";
+import img_intro from "../assets/images/intro/intro.png";
 import baeminAvatar from "../assets/images/intro/baemin-avatar.png";
 import "./Intro.css"
-import IntroPhoto from "./IntroPhoto";
 
 export default function Intro() {
     return (
         <div className="Intro" id="Intro">
             <div className="Intro-photo-container">
-                <img className="Intro-photo" src={gook}></img>
-                <img className="Intro-photo" src={joo}></img>
-                {/* <IntroPhoto type="groom" name="MINGOOK" photo={gook} /> */}
-                {/* <IntroPhoto type="bride" name="HYUNJOO" photo={joo} /> */}
+                <img className="Intro-photo" src={img_intro}></img>
             </div>
             <div className="Intro-desc">
                 <div className="Intro-desc-title">동료에서 동반자로</div>

@@ -1,6 +1,8 @@
 .Calendar {
-    text-align: center;
-    padding: 60px 0px 70px 0px
+    padding: 60px 0px 70px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .Calendar-image {

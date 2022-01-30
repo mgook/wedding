@@ -52,14 +52,14 @@ export default function Cong() {
             <h1>축하인사 하기</h1>
             <CongCard params={mingook} />
             <CongCard params={hyunjoo} />
-            <div className='CongParent-grid'>
+            <section className='CongParent-grid'>
                 <h1>신랑 혼주</h1>
                 <h1>신부 혼주</h1>
                 <CongParent params={mingookFather} />
                 <CongParent params={mingookMother} />
                 <CongParent params={hyunjooFather} />
                 <CongParent params={hyunjooMother} />
-            </div>
+            </section>
         </div>
     );
 }
