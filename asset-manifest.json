@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/wedding/static/css/main.c43f775a.css",
-    "main.js": "/wedding/static/js/main.666fda52.js",
+    "main.css": "/wedding/static/css/main.8ba984fb.css",
+    "main.js": "/wedding/static/js/main.1000e04b.js",
     "static/js/787.a11f3ad4.chunk.js": "/wedding/static/js/787.a11f3ad4.chunk.js",
     "static/media/11.jpg": "/wedding/static/media/11.dc9a8860e8fc8d2322ca.jpg",
     "static/media/07.jpg": "/wedding/static/media/07.7c53ead45b58e24a0561.jpg",
     "static/media/05.jpg": "/wedding/static/media/05.1f5279d51a128622651f.jpg",
     "static/media/01.jpg": "/wedding/static/media/01.7fb3a9028ef45c22f001.jpg",
     "static/media/04.jpg": "/wedding/static/media/04.b07a930d484a5ea0cd75.jpg",
-    "static/media/baemin-avatar.png": "/wedding/static/media/baemin-avatar.1cee63b04802140402b1.png",
     "static/media/10.jpg": "/wedding/static/media/10.aff26f4a13b98208d0de.jpg",
     "static/media/02.jpg": "/wedding/static/media/02.c64bb3cbdab33cc78326.jpg",
     "static/media/06.jpg": "/wedding/static/media/06.ba3d3f2ff55ecb68d21a.jpg",
@@ -20,13 +19,16 @@
     "static/media/group-6.png": "/wedding/static/media/group-6.07c52e1b6db35ed10255.png",
     "static/media/gook.png": "/wedding/static/media/gook.74e9796bcaf813b6178f.png",
     "static/media/joo.png": "/wedding/static/media/joo.8dfd7d64275f9000d628.png",
+    "static/media/baemin-avatar.png": "/wedding/static/media/baemin-avatar.cf5b8d171850c918f1f4.png",
+    "static/media/mg.png": "/wedding/static/media/mg.fb4e05e4f1920b430823.png",
+    "static/media/hj.png": "/wedding/static/media/hj.12aa81f434fd487fc43b.png",
     "index.html": "/wedding/index.html",
-    "main.c43f775a.css.map": "/wedding/static/css/main.c43f775a.css.map",
-    "main.666fda52.js.map": "/wedding/static/js/main.666fda52.js.map",
+    "main.8ba984fb.css.map": "/wedding/static/css/main.8ba984fb.css.map",
+    "main.1000e04b.js.map": "/wedding/static/js/main.1000e04b.js.map",
     "787.a11f3ad4.chunk.js.map": "/wedding/static/js/787.a11f3ad4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c43f775a.css",
-    "static/js/main.666fda52.js"
+    "static/css/main.8ba984fb.css",
+    "static/js/main.1000e04b.js"
   ]
 }
