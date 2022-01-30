@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import "../Theme.css";
 import "./Location.css";
 
 const { kakao } = window;
@@ -19,7 +18,7 @@ export default function Location() {
 
     return (
         <div className="Location" id="Location">
-            <div className='Location-title Theme-title'>노블발렌티 대치</div>
+            <h1 className='Location-title'>노블발렌티 대치</h1>
             <div className='Location-map-container'>
                 <div className='Location-map' id="map"></div>
             </div>

@@ -1,16 +1,15 @@
 .Navbar {
-    /* display: flex; */
-    /* justify-content: space-evenly; */
     position:-webkit-sticky;
     position:sticky;
     top:0;
     background: white;
     width: 100%;
     text-align: center;
-    height: 80px;
+    height: 3.8rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    flex-direction: column;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -41,11 +40,14 @@
     position: relative;
 }
 
+.Navbar li a.active {
+    font-weight: bold;
+}
+
 .Navbar-items li a::after {
     width: 0;
     content: "";
-    height: 4px;
-    /* background-color: #ffc107; */
+    height: 3px;
     background-color: #e2c1c1;
     position: absolute;
     bottom: -5px;

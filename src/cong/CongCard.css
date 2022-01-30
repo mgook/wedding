@@ -1,0 +1,58 @@
+
+.CongCard {
+    width: 34.8rem;
+    height: 17.8rem;
+    background: white;
+    display: flex;
+    padding: 4px;
+    margin-bottom: 45px;
+}
+
+.CongCard main {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 1
+}
+
+.CongCard-photo {
+    width: 13rem;
+    height: 19.4rem;
+}
+
+.CongCard-title {
+    color: #d18f8f;
+    font-family: NanumMyeongjo;
+    font-size: 1.6rem;
+}
+
+.CongCard-title b {
+    font-size: 2.0rem;
+}
+
+.CongCard-content {
+    margin-top: 4.5rem;
+    margin-bottom: 1.9rem;
+
+    flex: 1;
+    white-space: pre-line;
+
+    font-family: NanumMyeongjo;
+    font-size: 12px;
+    font-weight: bold;
+    color: #d18f8f
+}
+
+.CongCard-icon-pink {
+    border-radius: 50%;
+    background: #d18f8f;
+    width: 1.6rem;
+    height: 1.6rem;
+    padding: 0.4rem;
+}
+
+.CongCard-messenger {
+    display: flex;
+    justify-content: space-between;
+    width: 9rem;
+}
