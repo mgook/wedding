@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wedding/static/css/main.8ba984fb.css",
-    "main.js": "/wedding/static/js/main.1000e04b.js",
+    "main.css": "/wedding/static/css/main.561b578f.css",
+    "main.js": "/wedding/static/js/main.05da3aaa.js",
     "static/js/787.a11f3ad4.chunk.js": "/wedding/static/js/787.a11f3ad4.chunk.js",
     "static/media/11.jpg": "/wedding/static/media/11.dc9a8860e8fc8d2322ca.jpg",
     "static/media/07.jpg": "/wedding/static/media/07.7c53ead45b58e24a0561.jpg",
@@ -17,18 +17,17 @@
     "static/media/12.jpg": "/wedding/static/media/12.89a62f4c77073ccbe771.jpg",
     "static/media/08.jpg": "/wedding/static/media/08.c94947638c36e1b713b5.jpg",
     "static/media/group-6.png": "/wedding/static/media/group-6.07c52e1b6db35ed10255.png",
-    "static/media/gook.png": "/wedding/static/media/gook.74e9796bcaf813b6178f.png",
-    "static/media/joo.png": "/wedding/static/media/joo.8dfd7d64275f9000d628.png",
+    "static/media/intro.png": "/wedding/static/media/intro.4154c82caed7cf91a7a0.png",
     "static/media/baemin-avatar.png": "/wedding/static/media/baemin-avatar.cf5b8d171850c918f1f4.png",
     "static/media/mg.png": "/wedding/static/media/mg.fb4e05e4f1920b430823.png",
     "static/media/hj.png": "/wedding/static/media/hj.12aa81f434fd487fc43b.png",
     "index.html": "/wedding/index.html",
-    "main.8ba984fb.css.map": "/wedding/static/css/main.8ba984fb.css.map",
-    "main.1000e04b.js.map": "/wedding/static/js/main.1000e04b.js.map",
+    "main.561b578f.css.map": "/wedding/static/css/main.561b578f.css.map",
+    "main.05da3aaa.js.map": "/wedding/static/js/main.05da3aaa.js.map",
     "787.a11f3ad4.chunk.js.map": "/wedding/static/js/787.a11f3ad4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ba984fb.css",
-    "static/js/main.1000e04b.js"
+    "static/css/main.561b578f.css",
+    "static/js/main.05da3aaa.js"
   ]
 }
