@@ -31,7 +31,14 @@
 }
 
 /* 혼주 */
-.Cong-parent {
+.CongParent-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    row-gap: 1.2rem;
+    column-gap: 7.0rem;
+}
+
+.CongParent-grid h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0;
 }

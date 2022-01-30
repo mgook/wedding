@@ -1,7 +1,8 @@
-import img_mingook from "../assets/images/cong/mg.png";
 import img_hyunjoo from "../assets/images/cong/hj.png";
+import img_mingook from "../assets/images/cong/mg.png";
 import "./Cong.css";
 import CongCard from "./CongCard";
+import CongParent from "./CongParent";
 
 export default function Cong() {
     const mingook = {
@@ -22,21 +23,42 @@ export default function Cong() {
         phone: "010-3746-3637"
     }
 
+    const mingookFather = {
+        type: "아버지",
+        name: "김동언",
+        phone: "010-2502-5397"
+    }
+
+    const mingookMother = {
+        type: "어머니",
+        name: "김미정",
+        phone: "010-9902-5397"
+    }
+
+    const hyunjooFather = {
+        type: "아버지",
+        name: "이종섭",
+        phone: "010-"
+    }
+
+    const hyunjooMother = {
+        type: "어머니",
+        name: "박경옥",
+        phone: "010-"
+    }
+
     return (
         <div className="Cong Cong-flex-column" id="Cong">
             <h1>축하인사 하기</h1>
             <CongCard params={mingook} />
             <CongCard params={hyunjoo} />
-            <div className='Cong-parent'>
-                <div className="Cong-parent-title">신랑 혼주</div>
-                <div className="Cong-parent-title">신부 혼주</div>
-                <div>
-                    <div className="Cong-parent-father">아버지 김동언</div>
-                    <div className="Cong-flex-row">
-                        <div>전화</div>
-                        <div>카톡</div>
-                    </div>
-                </div>
+            <div className='CongParent-grid'>
+                <h1>신랑 혼주</h1>
+                <h1>신부 혼주</h1>
+                <CongParent params={mingookFather} />
+                <CongParent params={mingookMother} />
+                <CongParent params={hyunjooFather} />
+                <CongParent params={hyunjooMother} />
             </div>
         </div>
     );
