@@ -25,14 +25,26 @@
 /* 주소 */
 .Location-address-container {
     display: flex;
-    margin-top: 8px;
+    margin-top: 0.8rem;
+    margin-bottom: 2.0rem;
+    align-items: center;
 }
 
-.Location-address {
-    width: 100%;
+.Location-address-container p {
     font-family: NotoSansKR;
-    font-size: 16px;
+    font-size: 1.6rem;
     color: #323232;
+    flex: 1;
+    margin-right: 2.1rem;
+}
+
+.Location-address-container img {
+    width: 4.4rem;
+    height: 4.4rem;
+}
+
+.Location-address-container a+a {
+    margin-left: 1.2rem;
 }
 
 .Location-address-button {

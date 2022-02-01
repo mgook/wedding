@@ -1,5 +1,8 @@
 import React, { useEffect } from 'react';
 import "./Location.css";
+import img_kakao from "../assets/images/location/kakao.png";
+import img_google from "../assets/images/location/google.png";
+import img_naver from "../assets/images/location/naver.png";
 
 const { kakao } = window;
 
@@ -23,9 +26,10 @@ export default function Location() {
                 <div className='Location-map' id="map"></div>
             </div>
             <div className='Location-address-container'>
-                <div className='Location-address'>서울 강남구 영동대로 325</div>
-                <div className='Location-address-button'>길찾기</div>
-                <div className='Location-address-button'>지도보기</div>
+                <p>서울 강남구 영동대로 325</p>
+                <a href="http://naver.me/5Rct8LyC"><img src={img_naver} /></a>
+                <a href="http://kko.to/HpUm3L5f0"><img src={img_kakao} /></a>
+                <a href="https://goo.gl/maps/6qGeGfxwQpW2TWMbA"><img src={img_google} /></a>
             </div>
             <div className='Location-info-container'>
                 <div className='Location-info-title'>전화</div>
