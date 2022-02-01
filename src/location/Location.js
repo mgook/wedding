@@ -27,7 +27,7 @@ export default function Location() {
             </div>
             <div className='Location-address-container'>
                 <p>서울 강남구 영동대로 325</p>
-                <a href="http://naver.me/5Rct8LyC"><img src={img_naver} /></a>
+                <a href="http://naver.me/5PQ7J4Cy"><img src={img_naver} /></a>
                 <a href="http://kko.to/HpUm3L5f0"><img src={img_kakao} /></a>
                 <a href="https://goo.gl/maps/6qGeGfxwQpW2TWMbA"><img src={img_google} /></a>
             </div>
