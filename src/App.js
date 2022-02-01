@@ -13,12 +13,6 @@ import Top from './top/Top';
 function App() {
   return (
     <div className="App">
-      <MetaTags>
-        <title>민국♡현주, 결혼합니다</title>
-        <meta property="og:title" content="민국♡현주, 결혼합니다" />
-        <meta property="og:description" content="일시: 2022.03. 13 (일) 오후 2시\n장소: 노블발렌티 대치" />
-        <meta property="og:image" content="https://github.com/mgook/wedding/blob/master/src/assets/images/thumbnail.jpg" />
-      </MetaTags>
       <Top />
       <Navbar />
       <Intro />
