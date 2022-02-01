@@ -9,7 +9,6 @@ export function Calendar() {
                 일요일 오후 2시
             </h1>
             <img className="Calendar-image" src={calendar} />
-            <button className='Calendar-save-button'>캘린더 저장하기</button>
         </div>
     );
 }

@@ -5,18 +5,7 @@
     align-items: center;
 }
 
-.Calendar-image {
+.Calendar img {
     margin: 20px 0px 42px 0px;
-}
-
-.Calendar-save-button {
-    width: 176px;
-    height: 42px;
-    padding: 11px 41px;
-    font-family: NotoSansKR;
-    font-size: 14px;
-    text-align: center;
-    color: #d18f8f;
-    background-color: transparent;
-    border: solid 1px #d18f8f;
+    width: 39rem;
 }

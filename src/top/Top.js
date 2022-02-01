@@ -15,7 +15,6 @@ function Top() {
                     2020월 03월 13일 (일) <b>오후 2시</b><br />
                     노블발렌티 대치
                 </div>
-                <button className='Top-save-button'>캘린더 저장하기</button>
             </div>
             <div className="Top-image" style={{height: window.innerHeight}}></div>
         </div>

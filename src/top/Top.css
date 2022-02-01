@@ -68,19 +68,6 @@
     font-size: 14px;
 }
 
-.Top-save-button {
-    width: 176px;
-    height: 42px;
-    margin-top: 34px;
-    padding: 11px 41px;
-    font-family: NotoSansKR;
-    font-size: 14px;
-    text-align: center;
-    color: white;
-    background-color: transparent;
-    border: solid 1px white;
-}
-
 .Top-save-button:hover {
     text-decoration: underline;
 }
