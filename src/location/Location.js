@@ -20,30 +20,30 @@ export default function Location() {
     }, []);
 
     return (
-        <div className="Location" id="Location">
-            <h1 className='Location-title'>노블발렌티 대치</h1>
+        <div className="Location App-section" id="Location">
+            <h1>노블발렌티 대치</h1>
             <div className='Location-map-container'>
                 <div className='Location-map' id="map"></div>
             </div>
             <div className='Location-address-container'>
-                <p>서울 강남구 영동대로 325</p>
+                <p className='App-text'>서울 강남구 영동대로 325</p>
                 <a href="http://naver.me/5PQ7J4Cy"><img src={img_naver} /></a>
                 <a href="http://kko.to/HpUm3L5f0"><img src={img_kakao} /></a>
                 <a href="https://goo.gl/maps/6qGeGfxwQpW2TWMbA"><img src={img_google} /></a>
             </div>
             <div className='Location-info-container'>
-                <div className='Location-info-title'>전화</div>
-                <div className='Location-info-content'>02-539-0400</div>
-                <div className='Location-info-title'>주차</div>
-                <div className='Location-info-content'>
+                <div className='App-text'>전화</div>
+                <div className='App-sub-text'>02-539-0400</div>
+                <div className='App-text'>주차</div>
+                <div className='App-sub-text'>
                     삼성역 3번출구 539m 직전<br />
                     -혜암빌딩 지하 주차장(150대)<br />
                     -폭스바겐 건물 주차(150대)
                 </div>
-                <div className='Location-info-title'>지하철</div>
-                <div className='Location-info-content'>2호선 삼성역 (10분 간격 셔틀 버스 운행)</div>
-                <div className='Location-info-title'>버스</div>
-                <div className='Location-info-content'>
+                <div className='App-text'>지하철</div>
+                <div className='App-sub-text'>2호선 삼성역 (10분 간격 셔틀 버스 운행)</div>
+                <div className='App-text'>버스</div>
+                <div className='App-sub-text'>
                     정류장 : 휘문고, 대치2동주문센터 하차<br />
                     -일반 : 11-3, 917<br />
                     -지선 : 4318, 4319, 4419<br />

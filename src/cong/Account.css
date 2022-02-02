@@ -1,16 +1,13 @@
 .Account {
-    padding: 4.6rem 2.0rem 7.0rem 2.0rem
+    padding-left: 2.1rem;
+    padding-right: 2.1rem;
 }
 
-.Account h1 {
-    font-size: 2.0rem;
-    margin-bottom: 1.6rem;
-}
 
 .Account main {
     display: grid;
     grid-template-columns: 6.2rem 1fr 6.2rem;
-    row-gap: 0.6rem;
+    row-gap: 0.8rem;
     grid-template-areas: 
         "title-a    account-a   copy-a"
         ".          account-b   copy-b"

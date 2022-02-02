@@ -1,14 +1,5 @@
 .PhotoGallery {
     background-color: #f9ecec;
-    text-align: center;
-    margin-top: -4px;
-    padding: 36px 23px 112px 23px;
-}
-
-.PhotoGallery-title {
-    color: #d18f8f;
-    font-size: 28px;
-    font-family: NanumMyeongjo;
-    font-weight: bold;
-    margin-bottom: 16px;
+    padding-left: 2.1rem;
+    padding-right: 2.1rem;
 }

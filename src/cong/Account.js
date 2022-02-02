@@ -19,8 +19,8 @@ export default class Account extends React.Component {
 
     render() {
         return (
-            <div className="Account">
-                <h1>마음을 전하는 곳</h1>
+            <div className="Account App-section">
+                <h2>마음을 전하는 곳</h2>
                 <main>
                     {/* 신랑 */}
                     <div style={{ "grid-area": "title-a" }} className="Account-title">신랑</div>

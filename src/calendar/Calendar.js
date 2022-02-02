@@ -3,7 +3,7 @@ import "./Calendar.css";
 
 export function Calendar() {
     return (
-        <div className="Calendar" id="Calendar">
+        <div className="Calendar App-section" id="Calendar">
             <h1>
                 2022년 3월 13일<br />
                 일요일 오후 2시

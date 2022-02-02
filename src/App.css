@@ -16,9 +16,36 @@
 
 h1 {
   font-family: NanumMyeongjo;
-  font-size: 26px;
-  font-weight: bold;
+  font-size: 2.8rem;
+  font-weight: 800;
   color: #d18f8f;
   text-align: center;
-  margin: 0 0 2.0rem 0;
+  padding-bottom: 2.0rem;
+  margin: 0;
+}
+
+h2 {
+  font-family: NanumMyeongjo;
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #d18f8f;
+  text-align: center;
+  padding-bottom: 2.0rem;
+  margin: 0;
+}
+
+.App-text {
+  font-size: 1.6rem;
+  font-family: NotoSansKR;
+  color: #323232;
+}
+
+.App-sub-text {
+  font-family: NotoSansKR;
+  font-size: 1.4rem;
+  color: #7b7b7b;
+}
+
+.App-section {
+  padding: 3.6rem 0 7.0rem 0;
 }

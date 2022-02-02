@@ -48,7 +48,7 @@ export default function Cong() {
     }
 
     return (
-        <div className="Cong Cong-flex-column" id="Cong">
+        <div className="Cong App-section" id="Cong">
             <h1>축하인사 하기</h1>
             <CongCard params={mingook} />
             <CongCard params={hyunjoo} />

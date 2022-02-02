@@ -1,11 +1,10 @@
 .Calendar {
-    padding: 60px 0px 70px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .Calendar img {
-    margin: 20px 0px 0px 0px;
     width: 39rem;
+    margin-top: 2.0rem;
 }

@@ -1,10 +1,6 @@
 .Location {
-    padding-left: 21px;
-    padding-right: 21px
-}
-
-.Location-title {
-    margin-bottom: 16px;
+    padding-left: 2.1rem;
+    padding-right: 2.1rem
 }
 
 .Location-map-container {
@@ -65,17 +61,10 @@
 .Location-info-container {
     display: grid;
     grid-template-columns: 1fr 3fr;
+
     row-gap: 0.8rem;
 }
 
-.Location-info-title {
-    font-family: NotoSansKR;
+.Location-info-container div {
     font-size: 1.4rem;
-    color: #323232;
-}
-
-.Location-info-content {
-    font-family: NotoSansKR;
-    font-size: 1.4rem;
-    color: #7b7b7b;
 }

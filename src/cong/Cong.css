@@ -1,14 +1,9 @@
 .Cong {
     background: #f9ecec;
-    padding: 56px 0px 76px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.Cong h1 {
-    margin-bottom: 1.6rem;
 }
 
 .Cong-card {
@@ -20,14 +15,6 @@
 .Cong-photo {
     width: 13rem;
     height: 19.4rem;
-}
-
-
-.Cong-flex-row {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
 }
 
 /* 혼주 */
