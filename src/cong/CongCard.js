@@ -12,8 +12,8 @@ export default function CongCard({ params }) {
                 <div className="CongCard-content">{params.content}</div>
                 <div className="CongCard-messenger">
                     <a href={`tel:${params.phone}`}><img className="CongCard-icon-pink" src={img_phone} /></a>
-                    <img className="CongCard-icon-pink" src={img_kakao} />
-                    <img className="CongCard-icon-pink" src={img_instagram} />
+                    <a href={`sms:${params.phone}`}><img className="CongCard-icon-pink" src={img_kakao} /></a>
+                    <a href={params.instagram}><img className="CongCard-icon-pink" src={img_instagram} /></a>
                 </div>
             </main>
             {params.imagePosition == "RIGHT" ? <img className="CongCard-photo" src={params.photo} /> : null}

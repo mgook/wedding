@@ -8,7 +8,7 @@ export default function CongParent({ params }) {
             <header>{params.type} <b>{params.name}</b></header>
             <main>
                 <a href={`tel:${params.phone}`}><img src={img_phone} /></a>
-                <a><img src={img_kakao} /></a>
+                <a href={`sms:${params.phone}`}><img src={img_kakao} /></a>
             </main>
         </div>
     );

@@ -4,6 +4,10 @@
     align-items: center;
 }
 
+.CongParent a {
+    height: 100%;
+}
+
 .CongParent header {
     font-size: 1.6rem;   
     color: #323232;

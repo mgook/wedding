@@ -11,7 +11,8 @@ export default function Cong() {
         name: "김민국",
         content: "Hello World!\n두줄은 써야 할 것 같어\n세줄?",
         photo: img_mingook,
-        phone: "010-6857-3563"
+        phone: "010-6857-3563",
+        instagram: "https://www.instagram.com/mgook_/"
     }
 
     const hyunjoo = {
@@ -20,7 +21,8 @@ export default function Cong() {
         name: "이현주",
         content: "Hello World!\n두줄은 써야 할 것 같어\n세줄?",
         photo: img_hyunjoo,
-        phone: "010-3746-3637"
+        phone: "010-3746-3637",
+        instagram: "https://www.instagram.com/jool1018/"
     }
 
     const mingookFather = {
@@ -56,8 +58,8 @@ export default function Cong() {
                 <h1>신랑 혼주</h1>
                 <h1>신부 혼주</h1>
                 <CongParent params={mingookFather} />
-                <CongParent params={mingookMother} />
                 <CongParent params={hyunjooFather} />
+                <CongParent params={mingookMother} />
                 <CongParent params={hyunjooMother} />
             </section>
         </div>
