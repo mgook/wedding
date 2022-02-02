@@ -49,3 +49,23 @@ h2 {
 .App-section {
   padding: 3.6rem 0 7.0rem 0;
 }
+
+
+/* FONT */
+@font-face {
+  font-family: 'NotoSansKR';
+  src: local(''),
+       url('./assets/fonts/notoSansKr-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'NanumMyeongjo';
+  src: local(''),
+       url('./assets/fonts/NanumMyeongjo.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Zapfino';
+  src: local(''),
+       url('./assets/fonts/Zapfino.ttf') format('truetype');
+}
