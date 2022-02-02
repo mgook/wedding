@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  /* 전체 기본 폰트 사이즈 wlwjd. */
+  /* 전체 기본 폰트 사이즈 지정. */
   font-size: 1.6rem;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -23,14 +23,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-
-h1 {
-  font-family: NanumMyeongjo;
-  font-size: 26px;
-  font-weight: bold;
-  color: #d18f8f;
-  text-align: center;
-  margin: 0;
 }

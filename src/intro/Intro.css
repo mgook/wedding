@@ -19,23 +19,23 @@
 .Intro-desc-title {
     object-fit: contain;
     font-family: NanumMyeongjo;
-    font-size: 26px;
+    font-size: 28px;
     font-weight: 800;
     color: #d18f8f;
 }
 
 .Intro-desc-content {
     font-family: NotoSansKR;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     color: #323232;
-    margin-top: 12px;
+    margin-top: 16px;
     margin-bottom: 40px;
 }
 
 .Intro-desc-family {
     font-family: NotoSansKR;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;

@@ -1,7 +1,6 @@
 import img_instagram from "../assets/images/cong/instagram.png";
 import img_phone from "../assets/images/cong/phone.png";
 import img_kakao from "../assets/images/cong/kakao.png";
-import "../Common.css";
 import "./CongCard.css";
 
 export default function CongCard({ params }) {
