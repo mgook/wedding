@@ -21,7 +21,7 @@ export default function PhotoGallery() {
     return (
         <div className="PhotoGallery App-section" id="PhotoGallery">
             <h1>우리들의 행복한 시간</h1>
-            <Gallery photos={photos} direction='column' columns='3' onClick={openLightbox} />
+            <Gallery photos={photos} direction='row' columns='3' onClick={openLightbox} limitNodeSearch='3' targetRowHeight='1'/>
             <ModalGateway>
                 {viewerIsOpen ? (
                     <Modal onClose={closeLightbox}>

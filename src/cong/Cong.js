@@ -9,7 +9,7 @@ export default function Cong() {
         imagePosition: "LEFT",
         type: "신랑",
         name: "김민국",
-        content: "Hello World!\n두줄은 써야 할 것 같어\n세줄?",
+        content: "축하해주신 모든 분께 감사드립니다.\n두줄은 써야 할 것 같어\n세줄?",
         photo: img_mingook,
         phone: "010-6857-3563",
         instagram: "https://www.instagram.com/mgook_/"
@@ -40,13 +40,13 @@ export default function Cong() {
     const hyunjooFather = {
         type: "아버지",
         name: "이종섭",
-        phone: "010-"
+        phone: "010-6265-3637"
     }
 
     const hyunjooMother = {
         type: "어머니",
         name: "박경옥",
-        phone: "010-"
+        phone: "010-4717-3637"
     }
 
     return (

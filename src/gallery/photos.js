@@ -14,15 +14,15 @@ import gallery12 from '../assets/images/gallery/12.jpg';
 
 const photos = [
     { src: gallery1, width: 4, height: 6 },
-    { src: gallery2, width: 4, height: 6 },
-    { src: gallery3, width: 6, height: 4 },
+    { src: gallery2, width: 6, height: 4 },
+    { src: gallery3, width: 4, height: 6 },
     { src: gallery4, width: 4, height: 6 },
     { src: gallery5, width: 4, height: 6 },
     { src: gallery6, width: 4, height: 6 },
     { src: gallery7, width: 4, height: 6 },
     { src: gallery8, width: 4, height: 6 },
     { src: gallery9, width: 4, height: 6 },
-    { src: gallery10, width: 4, height: 6 },
+    { src: gallery10, width: 6, height: 4 },
     { src: gallery11, width: 4, height: 6 },
     { src: gallery12, width: 6, height: 4 }
 ];
