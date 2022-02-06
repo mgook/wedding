@@ -15,8 +15,20 @@
     margin-bottom: 0.4rem;
 }
 
-.CongParent img {
+.CongParent main {
+    display: flex;
+}
+
+.CongParent-img-wrap {
     width: 2.2rem;
     height: 2.2rem;
-    padding: 0.9rem;
+    padding: 0.9rem;   
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.CongParent-img-wrap img {
+    width: 100%;
+    height: auto;
 }

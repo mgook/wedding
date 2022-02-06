@@ -9,7 +9,7 @@ export default function Cong() {
         imagePosition: "LEFT",
         type: "신랑",
         name: "김민국",
-        content: "축하해주신 모든 분께 감사드립니다.\n두줄은 써야 할 것 같어\n세줄?",
+        content: "서로를 존중하며, 행복하게 살겠습니다.\n축하해주셔서 감사합니다. 💕",
         photo: img_mingook,
         phone: "010-6857-3563",
         instagram: "https://www.instagram.com/mgook_/"
@@ -19,7 +19,7 @@ export default function Cong() {
         imagePosition: "RIGHT",
         type: "신부",
         name: "이현주",
-        content: "Hello World!\n두줄은 써야 할 것 같어\n세줄?",
+        content: "인생 제2막! 둘이서 재미나게\n써내려가겠습니다 💖\n축하해주셔서 감사합니다 💝",
         photo: img_hyunjoo,
         phone: "010-3746-3637",
         instagram: "https://www.instagram.com/jool1018/"
