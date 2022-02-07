@@ -47,7 +47,7 @@ export default function Location() {
                 </div>
                 <div className='App-text'>버스</div>
                 <div className='App-sub-text'>
-                    정류장 : 휘문고, 대치2동주문센터 하차<br />
+                    정류장 : 휘문고, 대치2동주민센터 하차<br />
                     - 일반 : 11-3, 917<br />
                     - 지선 : 4318, 4319, 4419<br />
                     - 간선 : 401<br />
