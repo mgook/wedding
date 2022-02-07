@@ -12,7 +12,7 @@ function Top() {
                 <div className="Top-title">22. 03. 13.</div>
                 <div className="Top-sub-title">김민국 - 이현주</div>
                 <div className="Top-desc">
-                    2020월 03월 13일 (일) <b>오후 2시</b><br />
+                    2022년 03월 13일 (일) <b>오후 2시</b><br />
                     노블발렌티 대치
                 </div>
             </div>
