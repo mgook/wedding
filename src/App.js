@@ -8,6 +8,7 @@ import PhotoGallery from './gallery/PhotoGallery';
 import Intro from './intro/Intro';
 import Location from './location/Location';
 import Navbar from './navbar/Navbar';
+import Rights from './rights/Rights';
 import Top from './top/Top';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <div className='Together-image'></div>
       <Cong />
       <Account />
+      <Rights />
       <LivereComment />
     </div>
   );

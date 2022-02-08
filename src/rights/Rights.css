@@ -1,0 +1,18 @@
+.Rights {
+    background-color: #f9ecec;
+    height: 11.6rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Rights header {
+    font-size: 1.4rem;
+    margin-bottom: 0.4rem;
+}
+
+.Rights main {
+    text-align: center;
+}
